@@ -1,0 +1,35 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "URL shortner using Node.js MongoDB Express and Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammingYatra/Url-Shortner.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Redis"
+  ],
+  "author": "Rupam Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProgrammingYatra/Url-Shortner/issues"
+  },
+  "homepage": "https://github.com/ProgrammingYatra/Url-Shortner#readme",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "redis": "^3.1.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
